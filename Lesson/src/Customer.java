@@ -3,6 +3,7 @@ package day53.Lesson.src;
 public class Customer {
     private String name;
     private int age;
+    
 
     // the class constructor
     public Customer(String customerName) {

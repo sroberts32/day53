@@ -13,6 +13,11 @@ public class BooksMain {
         books.add(new Book("Dark Force Rising", 480, 1992));
         books.add(new Book("Blood of Elves", 320, 1994));
 
+        //part 2
+        books.add(new Book("Armada"));
+        books.add(new Book(634));
+        books.add(new Book("Count of Monte Cristo", 1884));
+
         while (true) {
             System.out.println("What would you like to print?");
             System.out.println("Options: Everything, title, exit");

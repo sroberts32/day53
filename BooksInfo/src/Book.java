@@ -5,6 +5,20 @@ public class Book {
     private int pages;
     private int year;
 
+    public Book() {}
+
+    public Book(String title) {
+        this.title = title;
+    }
+
+    public Book(String title, int year) {
+        this.pages = year;
+    }
+
+    public Book(int pages) {
+        this.pages = pages;
+    }
+
     public Book(String title, int pages, int year) {
         this.title = title;
         this.pages = pages;

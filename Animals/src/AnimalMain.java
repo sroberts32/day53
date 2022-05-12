@@ -7,6 +7,11 @@ public class AnimalMain {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Animal> animals = new ArrayList<>();
         boolean typeDog;
+        //part 2
+        animals.add(new Animal("Tippy", true));
+        animals.add(new Animal("Mando", true));
+        animals.add(new Animal(false));
+        animals.add(new Animal("Fido"));
 
         System.out.println("Entering nothing will stop the loop.");
 

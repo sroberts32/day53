@@ -5,6 +5,18 @@ public class Animal {
     private boolean dog;
     
 
+    public Animal() {
+
+    }
+
+    public Animal(String AnimalName) {
+        this.name = AnimalName;
+    }
+
+    public Animal(boolean typeDog) {
+        this.dog = typeDog;
+    }
+
     public Animal(String animalName, boolean typeDog) {
         this.name = animalName;
         this.dog = typeDog;

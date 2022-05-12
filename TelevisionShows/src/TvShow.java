@@ -5,6 +5,26 @@ public class TvShow {
     private int numEp;
     private String genre;
 
+    public TvShow(){}
+
+    public TvShow(String showName){
+        this.name = showName;
+    }
+
+    public TvShow(int numOfEp){
+        this.numEp = numOfEp;
+    }
+
+    public TvShow(String showName, int numOfEp){
+        this.name = showName;
+        this.numEp = numOfEp;
+    }
+
+    public TvShow(String showName, String showGenre){
+        this.name = showName;
+        this. genre = showGenre;
+    }
+
     public TvShow(String showName, int numOfEp, String showGenre) {
         this.name = showName;
         this.numEp = numOfEp;
