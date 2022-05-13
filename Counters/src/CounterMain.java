@@ -17,7 +17,7 @@ public class CounterMain {
         counter1.decrease();
         System.out.println(counter1.value());
 
-        //With the overloaded constructors and getters
+        //With overloaded constructors and setters
         System.out.println("Counter at 10");
         System.out.println(counter2.value());
 
